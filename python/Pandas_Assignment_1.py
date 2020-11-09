@@ -49,9 +49,7 @@ df1.index
 
 #Which was the most ordered item? and How many items were ordered?
 
-itemname=df1.groupby('item_name')
-df2=itemname.sum() 
-df3=df2.sort_values('quantity',ascending=False)
+ df3=df2.sort_values('quantity',ascending=False)
 df3.head(1)
 
 
